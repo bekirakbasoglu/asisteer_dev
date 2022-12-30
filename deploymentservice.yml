@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: nodeapp:1.0.1
+        image: jamesweb03:5000/nodeapp
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
