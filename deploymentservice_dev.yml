@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: jamesweb03:5000/nodeapp:$BUILD_NUMBER
+        image: jamesweb03:5000/nodeapp_dev:$BUILD_NUMBER
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
