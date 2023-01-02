@@ -13,6 +13,7 @@ app.get('/bekir', (req, res) => {res.send('Hello World bekir!');});
 app.get('/ali', (req, res) => {res.send('Hello World ali!');});
 app.get('/resim', (req, res) => {res.send('Hello World resim!');});
 app.get('/huseyin', (req, res) => {res.send('Hello World Huseyin!');});
+app.get('/semra', (req, res) => {res.send('Hello World Semra!');});
 
 app.listen(PORT, HOST, () => {console.log(`Running on http://${HOST}:${PORT}`);});
 
